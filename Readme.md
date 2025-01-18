@@ -1,6 +1,5 @@
 # Caddy Tailscale
 
-
 Nothing fancy, Caddy to Tailscale, using https://github.com/tailscale/caddy-tailscale
 
 The docker file comes from: 
@@ -29,3 +28,5 @@ Run it
 docker run --name caddy-tailscale -v $(pwd):/config  -d mikeburgh/caddy-tailscale
 
 ```
+
+On first run, check the logs for a url to auth with tailscale.
